@@ -62,7 +62,7 @@ CREATE TABLE `student_classroom` (
 
 LOCK TABLES `student_classroom` WRITE;
 /*!40000 ALTER TABLE `student_classroom` DISABLE KEYS */;
-INSERT INTO `student_classroom` VALUES (31,1),(32,2),(33,3),(34,4),(35,1),(36,2),(37,3),(38,4),(31,1),(32,2),(33,3),(34,4),(35,1),(36,2),(37,3),(38,4);
+INSERT INTO `student_classroom` VALUES (31,1),(32,1),(33,1),(34,1),(35,1),(36,1),(37,2),(38,2),(76,2),(77,2),(78,2),(79,3),(80,3),(81,3),(82,4),(83,4),(84,4),(85,4),(86,4),(87,4),(88,4);
 /*!40000 ALTER TABLE `student_classroom` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -113,7 +113,7 @@ CREATE TABLE `students` (
   `address` text,
   PRIMARY KEY (`id`),
   UNIQUE KEY `email_UNIQUE` (`email`)
-) ENGINE=InnoDB AUTO_INCREMENT=39 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=89 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -122,7 +122,7 @@ CREATE TABLE `students` (
 
 LOCK TABLES `students` WRITE;
 /*!40000 ALTER TABLE `students` DISABLE KEYS */;
-INSERT INTO `students` VALUES (21,'Alice','Johnson','1995-02-10','555-1111','F','2022-02-20','alice.johnson@email.com','123 Main St'),(31,'Bob','Smith','1998-07-15','555-2222','M','2022-02-21','bob.smith@email.com','456 Oak Ave'),(32,'Catherine','Miller','1994-11-28','555-3333','F','2022-02-22','catherine.miller@email.com','789 Pine Rd'),(33,'David','Williams','1993-05-03','555-4444','M','2022-02-23','david.williams@email.com','101 Elm St'),(34,'Eva','Jones','1996-09-12','555-5555','F','2022-02-24','eva.jones@email.com','202 Cedar Ln'),(35,'Frank','Anderson','1997-03-25','555-6666','M','2022-02-25','frank.anderson@email.com','303 Maple Ave'),(36,'Grace','Davis','1992-08-08','555-7777','F','2022-02-26','grace.davis@email.com','404 Birch Rd'),(37,'Henry','Taylor','1999-01-18','555-8888','M','2022-02-27','henry.taylor@email.com','505 Pine Ln'),(38,'Ivy','Evans','1991-04-30','555-9999','F','2022-02-28','ivy.evans@email.com','606 Oak St');
+INSERT INTO `students` VALUES (21,'Alice','Johnson','1995-02-10','555-1111','F','2022-02-20','alice.johnson@email.com','123 Main St'),(31,'Bob','Smith','1998-07-15','555-2222','M','2022-02-21','bob.smith@email.com','456 Oak Ave'),(32,'Catherine','Miller','1994-11-28','555-3333','F','2022-02-22','catherine.miller@email.com','789 Pine Rd'),(33,'David','Williams','1993-05-03','555-4444','M','2022-02-23','david.williams@email.com','101 Elm St'),(34,'Eva','Jones','1996-09-12','555-5555','F','2022-02-24','eva.jones@email.com','202 Cedar Ln'),(35,'Frank','Anderson','1997-03-25','555-6666','M','2022-02-25','frank.anderson@email.com','303 Maple Ave'),(36,'Grace','Davis','1992-08-08','555-7777','F','2022-02-26','grace.davis@email.com','404 Birch Rd'),(37,'Henry','Taylor','1999-01-18','555-8888','M','2022-02-27','henry.taylor@email.com','505 Pine Ln'),(38,'Ivy','Evans','1991-04-30','555-9999','F','2022-02-28','ivy.evans@email.com','606 Oak St'),(76,'Liridon','Gashi','1998-03-15','555-1234','M','2022-02-22','liridon.gashi@email.com','123 Main St'),(77,'Elira','Krasniqi','1995-08-22','555-5678','F','2022-02-22','elira.krasniqi@email.com','456 Oak Ave'),(78,'Arben','Mehmeti','1990-11-10','555-9876','M','2022-02-22','arben.mehmeti@email.com','789 Pine Rd'),(79,'Albana','Bajrami','1992-05-30','555-4321','F','2022-02-23','albana.bajrami@email.com','101 Elm St'),(80,'Luan','Hoxha','1987-09-18','555-8765','M','2022-02-23','luan.hoxha@email.com','202 Cedar Ln'),(81,'Vesa','Rexhepi','1995-12-05','555-2109','F','2022-02-24','vesa.rexhepi@email.com','303 Maple Ave'),(82,'Arian','Leka','1983-04-12','555-7890','M','2022-02-24','arian.leka@email.com','404 Birch Rd'),(83,'Adela','Gjoni','1998-07-28','555-3456','F','2022-02-25','adela.gjoni@email.com','505 Pine Ln'),(84,'Blendi','Deda','1989-01-07','555-6543','M','2022-02-25','blendi.deda@email.com','606 Oak St'),(85,'Erjona','Basha','1993-06-20','555-8901','F','2022-02-26','erjona.basha@email.com','707 Cedar Ave'),(86,'Artan','Kuqi','1986-10-02','555-1234','M','2022-02-26','artan.kuqi@email.com','808 Birch Rd'),(87,'Anisa','Zeqiri','1990-03-05','555-5678','F','2022-02-27','anisa.zeqiri@email.com','909 Maple Ln'),(88,'Ardit','Ramadani','1985-08-18','555-9876','M','2022-02-27','ardit.ramadani@email.com','101 Pine Rd');
 /*!40000 ALTER TABLE `students` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -249,4 +249,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-02-23  8:49:04
+-- Dump completed on 2024-02-23 17:54:06
